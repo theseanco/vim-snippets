@@ -8,6 +8,9 @@ This repository contains snippets files for various programming languages.
 It is community-maintained and many people have contributed snippet files and
 other improvements already.
 
+-- THIS IS MY OWN FORK CONTAINING A BUNCH OF SUPERCOLLIDER SNIPPETS. 
+-- SEAN COTTERILL 2016
+
 Contents
 --------
 
