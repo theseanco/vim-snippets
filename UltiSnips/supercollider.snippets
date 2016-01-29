@@ -69,3 +69,7 @@ endsnippet
 snippet warp1v "warp1 verbose" i
 Warp1.ar(${1:1},d[\\${1:buf}][${2:0}],${3:SinOsc.kr(0.1)},${5:freqScale:1},${6:windowSize:0.2},${7:envbufnum:-1},${8:overlaps:8},${9:windowRandRatio:0},${10:interp:1},${11:mul:0.6})
 endsnippet
+
+snippet bpfsaw "bpfsaw Pbind" i
+Pbind(\instrument,\bpfsaw,\dur,${1:1},\freq,${2:300},\detune,${3:Pexprand(0.001,0.3)},\atk,${4:2},\sus,${5:0.5},\rel,${6:2},\lsf,${7:200},\ldb,${8:0},\amp,${9:0.3})
+endsnippet
